@@ -1,11 +1,14 @@
 <template>
-  
+  <div>
+    <Modal/>
+  </div>
 </template>
 
 <script>
+import Modal from "./components/Modal.vue";
 export default {
   name: "App",
-  components:{}
+  components:{ Modal }
 };
 </script>
 

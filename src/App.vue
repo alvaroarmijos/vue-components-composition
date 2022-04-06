@@ -1,11 +1,15 @@
 <template>
-  
+  <UserRepositories :user="'Alvaro'"></UserRepositories>
 </template>
 
 <script>
+import UserRepositories from "./components/UserRepositories.vue";
+
 export default {
   name: "App",
-  components:{}
+  components: {
+    UserRepositories,
+  },
 };
 </script>
 
